@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@500&display=swap');
+
+
+.login-page-root{
+    background-color: var(--primary-color);
+    max-width: fit-content;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: .5rem;
+    
+    font-size: 1rem;;
+    font-family: 'Ubuntu', sans-serif;
+}

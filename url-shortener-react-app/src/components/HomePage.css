@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@500&display=swap");
+
+.homepage-root {
+  background-color: var(--primary-color);
+  margin: 7rem auto;
+  max-width: fit-content;
+  padding: 3rem 3rem;
+  border-radius: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+
+  font-size: 1.2rem;
+}
+
+.homepage-root label {
+  align-items: right;
+  /* border: solid red 2px; */
+}
+
+.homepage-root label.required::before {
+  content: "*";
+  color: rgba(228, 45, 106, 0.897);
+}
+
+.homepage-root .url-root .input-container {
+  text-align: center;
+}
+
+.homepage-root .url-root .url-intake {
+  margin-bottom: 0.5rem;
+}
+
+.homepage-root .input-container.id-intake.invalid input {
+  outline: solid rgba(228, 45, 106, 0.897) 2px;
+}
+
+.homepage-root .error-message {
+  color: rgba(228, 45, 106, 0.897);
+  margin: -2px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0;
+  margin-top: 0.25rem;
+}
+
+.homepage-root .error-message.invalid {
+  opacity: 1;
+}
+
+.homepage-root button {
+  border: none;
+  background-color: var(--terciary-color);
+  padding: 1rem 2rem;
+  margin-top: 1.2rem;
+  border-radius: 2rem;
+  font-size: 1em;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.homepage-nav-root {
+  color: var(--secondary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  
+
+  background-color: var(--primary-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .8rem 2rem .8rem 1.5rem;
+}
+
+.homepage-nav-root button {
+  font-size: inherit;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: var(--terciary-color);
+}

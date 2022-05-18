@@ -1,0 +1,25 @@
+.confirmation-dialog-root {
+  display: grid;
+  place-items: center;
+
+  position: fixed;
+  inset: 0;
+
+  background-color: rgba(0, 0, 0, 0.7);  
+}
+
+.confirmation-dialog-root .dialog {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.confirmation-dialog-root .dialog button {
+    padding: .75rem 1.75rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--pink-red);
+}

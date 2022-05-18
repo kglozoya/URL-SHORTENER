@@ -1,0 +1,41 @@
+.login-form-root{
+    font-size: 1.2rem;
+}
+
+.login-form-root .form-input {
+  text-align: right;
+  font-size: inherit;
+  margin-bottom: 0.5rem;
+}
+
+.login-form-root .loader {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  border: solid var(--primary-color) 3px;
+  border-top-color: var(--secondary-color);
+  box-sizing: border-box;
+  /* linear makes the spin "smooth" */
+  animation: spin 1s linear infinite;
+}
+
+.login-form-root button {
+  border: none;
+  margin-top: 1rem;
+  background-color: var(--terciary-color);
+  padding: 0.5rem 2rem;
+  margin-top: 1.2rem;
+  border-radius: 2rem;
+  font-size: inherit;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

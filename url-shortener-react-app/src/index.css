@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+html,
+body{
+    padding: 0;
+    margin: 0
+}
+
+:root {
+    --primary-color: #F6EBFF;
+    --secondary-color: #080213;
+    --terciary-color: #00C89E;
+    --pink-red: rgba(228, 45, 106, 0.897);
+    
+    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+    
+    font-family: 'Ubuntu', sans-serif;
+}
